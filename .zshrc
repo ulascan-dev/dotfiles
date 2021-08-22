@@ -70,13 +70,11 @@ ZSH_THEME="darkblood"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-alias dotnet="/home/ulas/.dotnet/dotnet"
 alias qq=exit
 alias vim=nvim
 alias weather="curl wttr.in/istanbul"
 alias bye="shutdown now"
 alias cc=copydir
-alias neofetch="neofetch --w3m Documents/anime.jpeg"
 alias clone="git clone"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
 plugins=(
