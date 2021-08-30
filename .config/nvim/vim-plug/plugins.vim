@@ -26,7 +26,6 @@ Plug   'junegunn/vim-easy-align'
 Plug   'itchyny/lightline.vim'
 Plug   'prettier/vim-prettier', { 'do': 'npm install' , 'branch' : 'release/1.x' }
 Plug   'dense-analysis/ale'
-Plug   'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug   'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug   'junegunn/fzf.vim'
 Plug   'valloric/MatchTagAlways'
