@@ -21,7 +21,7 @@ Plug   'frazrepo/vim-rainbow'
 Plug   'ervandew/supertab'
 Plug   'puremourning/vimspector'
 Plug   'tpope/vim-fugitive'
-Plug   'drewtempelmeyer/palenight.vim'
+Plug   'chriskempson/base16-vim'
 Plug   'junegunn/vim-easy-align'
 Plug   'itchyny/lightline.vim'
 Plug   'prettier/vim-prettier', { 'do': 'npm install' , 'branch' : 'release/1.x' }
@@ -32,6 +32,5 @@ Plug   'valloric/MatchTagAlways'
 Plug   'jiangmiao/auto-pairs'
 Plug   'pangloss/vim-javascript'
 Plug   'neoclide/coc.nvim', {'branch': 'release'}
-Plug   'HenryNewcomer/vim-theme-papaya'
 
 call plug#end()
