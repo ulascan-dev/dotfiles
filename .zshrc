@@ -8,7 +8,7 @@ export ZSH="/home/ulas/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="darkblood"
+ZSH_THEME="josh"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -157,7 +157,7 @@ _dotnet_zsh_complete()
 compctl -K _dotnet_zsh_complete dotnet
 
 autoload -U compinit && compinit
-figlet HUMBLE | lolcat
+misfortune | cowsay | lolcat
 colorscript random
 
 #
